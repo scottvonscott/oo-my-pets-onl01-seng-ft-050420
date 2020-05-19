@@ -77,7 +77,7 @@ def self.reset_all
 end
 
 def list_pets
-  puts "I have #{self.dogs.size} dog(s), and #{self.cats.size} cat(s)."
+ "I have #{self.dogs.size} dog(s), and #{self.cats.size} cat(s)."
 end
 
 end
